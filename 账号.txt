@@ -1,0 +1,21 @@
+ec2-user@18.215.84.163 
+ MAX_JOBS=4 pip install csrc/layer_norm
+python demo.py --checkpoint-path='/data/model/Qwen-7B-Chat'
+
+du -h --max-depth=1 
+
+df -h --max-depth=1 
+
+tar -zxvf 
+ 
+https://github.com/h2oai/h2ogpt/pull/526     
+python generate.py --base_model=TheBloke/Llama-2-7b-Chat-GPTQ --load_gptq="gptq_model-4bit-128g" --use_safetensors=True --prompt_type=llama2 --save_dir='7bgptq4bit` --load_exllama=True
+
+tmux new -s session-name
+从会话切出到原始窗口tmux deta
+tmux ls
+tmux kill-session -t session-name
+
+{"timestamp " : "1438918613"，"from " :"Oxbd08e0cddec097db7901ea819a3d1fd9de8951a2","to": "Ox5c12a8e43faf884521c2454f39560e6c265a68c8","value" : 19.9," gasUsed " :21000,"gasPrice" :909809000000}
+{"timestamp"："2015-0-47 03653 ron " Dkbdoecdeco7db7901e819a3d1tisde8s1a t 05rc1a3e4 fh18451c24546351iebc2.a8c eter 29 Tra scionre全 : 01910ss9
+
